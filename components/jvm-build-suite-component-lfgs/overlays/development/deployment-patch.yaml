@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-lfgs
+  namespace: jvm-build-fpin-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:822d7d312fc0d096cd4d3e1facdf966ec4e14b6354e7aa5937d7e8e53d782375
+        name: container-image
+        resources: {}
+status: {}
