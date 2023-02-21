@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-lfgs
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:32cd12f51f104b0a98742565860cf77a
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:822d7d312fc0d096cd4d3e1facdf966ec4e14b6354e7aa5937d7e8e53d782375
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

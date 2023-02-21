@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-lfgs
     app.kubernetes.io/part-of: jvm-build-suite-application-jqru
-  name: jvm-build-suite-componentqi4j
+  name: jvm-build-suite-componentxlhs
   namespace: jvm-build-fpin-tenant
 spec:
   port:
